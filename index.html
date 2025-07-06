@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>FokusYard - Productivity Dashboard | Organize • Focus • Achieve</title>
+    <meta name="title" content="FokusYard - Productivity Dashboard | Organize • Focus • Achieve" />
+    <meta name="description" content="FokusYard is a comprehensive productivity dashboard to manage tasks, habits, goals, and boost your daily efficiency. Features Pomodoro timer, habit tracker, and more." />
+    <meta name="keywords" content="fokusyard, productivity, dashboard, todo, habits, goals, pomodoro, planner, focus, time management, task management, habit tracker, daily goals, productivity tools" />
+    <meta name="author" content="Amit Verma" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fokusyard.vercel.app" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fokusyard.vercel.app" />
+    <meta property="og:title" content="FokusYard - Productivity Dashboard | Organize • Focus • Achieve" />
+    <meta property="og:description" content="FokusYard is a comprehensive productivity dashboard to manage tasks, habits, goals, and boost your daily efficiency. Features Pomodoro timer, habit tracker, and more." />
+    <meta property="og:image" content="https://fokusyard.vercel.app/og-image.jpg" />
+    <meta property="og:site_name" content="FokusYard" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://fokusyard.vercel.app" />
+    <meta property="twitter:title" content="FokusYard - Productivity Dashboard | Organize • Focus • Achieve" />
+    <meta property="twitter:description" content="FokusYard is a comprehensive productivity dashboard to manage tasks, habits, goals, and boost your daily efficiency. Features Pomodoro timer, habit tracker, and more." />
+    <meta property="twitter:image" content="https://fokusyard.vercel.app/og-image.jpg" />
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#3B82F6" />
+    <meta name="msapplication-TileColor" content="#3B82F6" />
+    <meta name="application-name" content="FokusYard" />
+    <meta name="apple-mobile-web-app-title" content="FokusYard" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    
+    <!-- Performance -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "FokusYard",
+      "description": "A comprehensive productivity dashboard to manage tasks, habits, goals, and boost your daily efficiency.",
+      "url": "https://fokusyard.vercel.app",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web Browser",
+      "author": {
+        "@type": "Person",
+        "name": "Amit Verma",
+        "url": "https://github.com/amitvermaofficial"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Todo Management",
+        "Pomodoro Timer",
+        "Habit Tracker",
+        "Daily Goals",
+        "Focus History",
+        "Life Balance Wheel",
+        "Motivational Quotes",
+        "Quick Sticky Notes"
+      ]
+    }
+    </script>
+    
+    <style>
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      /* Prevent FOUC */
+      #root {
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+      #root.loaded {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Mark as loaded
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('root').classList.add('loaded');
+      });
+    </script>
+  </body>
+</html> 
